@@ -27,10 +27,10 @@ public class Main {
 
         int year =  2022;
         if (year %4 == 0 && year % 100 != 0 || year%400 == 0){
-            System.out.println("Год високосный");
+            System.out.println(year  + " год является високосным");
         }
         else{
-            System.out.println("Не високосный");
+            System.out.println(year + " год не является високосным");
         }
 
 
