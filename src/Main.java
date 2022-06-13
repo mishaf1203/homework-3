@@ -23,8 +23,15 @@ public class Main {
         if (clientDeviceYear < 2015 && clientOS == 0) {
             System.out.println("Установите облегченную версию приложения для iOS по ссылке");
         }
+        //Задание 3
 
-
+        int year =  2022;
+        if (year %4 == 0 && year % 100 != 0 || year%400 == 0){
+            System.out.println("Год високосный");
+        }
+        else{
+            System.out.println("Не високосный");
+        }
 
 
 
