@@ -70,6 +70,7 @@ public class Main {
             default:
                 System.out.println("Вы указали неправильный месяц");
 
+
         }
 
 
